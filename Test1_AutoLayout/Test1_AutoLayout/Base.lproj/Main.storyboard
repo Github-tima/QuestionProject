@@ -83,88 +83,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z3E-Fo-MS3" customClass="DesignableView" customModule="Test1_AutoLayout" customModuleProvider="target">
-                                <rect key="frame" x="287" y="325" width="450" height="118"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeF-fe-hZY" customClass="DesignableLabel" customModule="Test1_AutoLayout" customModuleProvider="target">
-                                        <rect key="frame" x="19" y="8" width="420" height="23.5"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="GeF-fe-hZY" secondAttribute="height" multiplier="411:23" id="Dwu-9B-IWT"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hmo-jq-8to">
-                                        <rect key="frame" x="0.0" y="48" width="450" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </view>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUs-ov-gBO" customClass="DesignableButton" customModule="Test1_AutoLayout" customModuleProvider="target">
-                                        <rect key="frame" x="243" y="68" width="120" height="40"/>
-                                        <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="HOW-uJ-qfP"/>
-                                            <constraint firstAttribute="height" constant="40" id="hop-gi-rZK"/>
-                                        </constraints>
-                                        <viewLayoutGuide key="safeArea" id="fQQ-Sv-bYk"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                        <state key="normal" title="OK">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="3"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgD-YA-D2O" customClass="DesignableButton" customModule="Test1_AutoLayout" customModuleProvider="target">
-                                        <rect key="frame" x="95" y="68" width="120" height="40"/>
-                                        <color key="backgroundColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="ZrJ-lU-zGR"/>
-                                            <constraint firstAttribute="height" constant="40" id="jbQ-Ti-Ebl"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                        <state key="normal" title="Cancel">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="3"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="GeF-fe-hZY" firstAttribute="leading" secondItem="Z3E-Fo-MS3" secondAttribute="leadingMargin" constant="11" id="2jI-tY-dRN"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="GeF-fe-hZY" secondAttribute="trailing" constant="11" id="LIJ-gd-ud8"/>
-                                    <constraint firstItem="zgD-YA-D2O" firstAttribute="leading" secondItem="Z3E-Fo-MS3" secondAttribute="leadingMargin" constant="87" id="RDn-j9-7iO"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="HUs-ov-gBO" secondAttribute="trailing" constant="87" id="lk3-bN-ShT"/>
-                                    <constraint firstItem="GeF-fe-hZY" firstAttribute="top" secondItem="Z3E-Fo-MS3" secondAttribute="top" constant="8" id="vTW-tp-cBX"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
-                                        <size key="value" width="0.0" height="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                                        <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GRF-2M-mO7" customClass="DesignableSegmentedControl" customModule="Test1_AutoLayout" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="708" width="1024" height="61"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -191,11 +109,99 @@
                                     <action selector="didPressWithSegmentControl:" destination="zhF-rV-U6K" eventType="valueChanged" id="eAN-Hl-uQj"/>
                                 </connections>
                             </segmentedControl>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NgL-yO-WB9" customClass="DesignableView" customModule="Test1_AutoLayout" customModuleProvider="target">
+                                <rect key="frame" x="267" y="314" width="490" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QPx-KR-jah" customClass="DesignableLabel" customModule="Test1_AutoLayout" customModuleProvider="target">
+                                        <rect key="frame" x="221" y="8" width="49" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="QPx-KR-jah" secondAttribute="height" multiplier="49:40" id="pCz-Ia-4D6"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="HQp-Cg-k0V"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCV-Rc-Vrz">
+                                        <rect key="frame" x="0.0" y="48" width="450" height="1"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YbY-X6-ao2" customClass="DesignableButton" customModule="Test1_AutoLayout" customModuleProvider="target">
+                                        <rect key="frame" x="266" y="82" width="120" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="KQz-nI-bak"/>
+                                            <constraint firstAttribute="height" constant="40" id="Kc7-G2-2sO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="OK">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHp-in-ygc" customClass="DesignableButton" customModule="Test1_AutoLayout" customModuleProvider="target">
+                                        <rect key="frame" x="110" y="82" width="120" height="40"/>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="eaP-AJ-m3b"/>
+                                            <constraint firstAttribute="height" constant="40" id="nrS-gQ-Dll"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="eCV-Rc-Vrz" firstAttribute="top" secondItem="QPx-KR-jah" secondAttribute="bottom" id="CyN-DP-G1i"/>
+                                    <constraint firstAttribute="bottom" secondItem="MHp-in-ygc" secondAttribute="bottom" constant="10" id="Gv3-5n-eY3"/>
+                                    <constraint firstItem="QPx-KR-jah" firstAttribute="centerX" secondItem="NgL-yO-WB9" secondAttribute="centerX" id="HWZ-46-vlF"/>
+                                    <constraint firstItem="MHp-in-ygc" firstAttribute="top" secondItem="eCV-Rc-Vrz" secondAttribute="bottom" constant="31" id="L4F-OP-qLD"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="YbY-X6-ao2" secondAttribute="bottom" constant="10" id="TZz-01-5Uo"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="YbY-X6-ao2" secondAttribute="trailing" constant="96" id="USn-VE-CqP"/>
+                                    <constraint firstItem="YbY-X6-ao2" firstAttribute="leading" secondItem="MHp-in-ygc" secondAttribute="trailing" constant="36" id="VLw-IE-T3r"/>
+                                    <constraint firstItem="YbY-X6-ao2" firstAttribute="top" secondItem="eCV-Rc-Vrz" secondAttribute="bottom" constant="31" id="e96-rS-aQk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GRF-2M-mO7" firstAttribute="trailing" secondItem="kij-Ys-b2s" secondAttribute="trailing" id="F15-No-tJS"/>
                             <constraint firstItem="GRF-2M-mO7" firstAttribute="leading" secondItem="kij-Ys-b2s" secondAttribute="leading" id="W3M-vh-tTU"/>
+                            <constraint firstItem="kij-Ys-b2s" firstAttribute="trailing" secondItem="NgL-yO-WB9" secondAttribute="trailing" constant="267" id="WjZ-R9-hcz"/>
+                            <constraint firstItem="NgL-yO-WB9" firstAttribute="leading" secondItem="kij-Ys-b2s" secondAttribute="leading" constant="267" id="hYa-dq-JkJ"/>
+                            <constraint firstItem="NgL-yO-WB9" firstAttribute="centerX" secondItem="stc-a5-ikQ" secondAttribute="centerX" id="oJl-10-Dmg"/>
                             <constraint firstItem="GRF-2M-mO7" firstAttribute="bottom" secondItem="kij-Ys-b2s" secondAttribute="bottom" id="zWs-1Z-anj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kij-Ys-b2s"/>
@@ -206,7 +212,6 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
-                        <outlet property="messageLabel" destination="GeF-fe-hZY" id="Ojr-3m-EeM"/>
                         <outlet property="segmentedControl" destination="GRF-2M-mO7" id="DVq-y4-8k6"/>
                     </connections>
                 </viewController>
@@ -222,9 +227,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VJe-xB-Pmk">
-                                <rect key="frame" x="0.0" y="64" width="1024" height="643.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" id="VJe-xB-Pmk">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="644"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailTableViewCell" rowHeight="77" id="DWw-cO-CFD" customClass="DetailCell" customModule="Test1_AutoLayout" customModuleProvider="target">
@@ -232,16 +237,17 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DWw-cO-CFD" id="dDu-SZ-RPR">
                                             <rect key="frame" x="0.0" y="0.0" width="1024" height="77"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATT-Qg-0ok">
+                                                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ATT-Qg-0ok">
                                                     <rect key="frame" x="1" y="0.0" width="545" height="77"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GtB-XO-h77">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GtB-XO-h77">
                                                             <rect key="frame" x="51" y="18" width="430" height="40"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <viewLayoutGuide key="safeArea" id="Lvs-Rn-wqD"/>
                                                             <attributedString key="attributedText">
                                                                 <fragment content="Label">
                                                                     <attributes>
@@ -250,18 +256,19 @@
                                                                     </attributes>
                                                                 </fragment>
                                                             </attributedString>
-                                                            <nil key="highlightedColor"/>
+                                                            <color key="highlightedColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <viewLayoutGuide key="safeArea" id="4ON-xz-ZCq"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQv-5H-Zc0">
                                                     <rect key="frame" x="547" y="0.0" width="148" height="77"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8M-Fo-fJ7">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X8M-Fo-fJ7">
                                                             <rect key="frame" x="0.0" y="18" width="148" height="40"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <attributedString key="attributedText">
                                                                 <fragment content="Label">
@@ -275,15 +282,17 @@
                                                         </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <viewLayoutGuide key="safeArea" id="JY1-Uh-jPa"/>
                                                 </view>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoM-Y3-6Bd">
+                                                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SoM-Y3-6Bd">
                                                     <rect key="frame" x="696" y="0.0" width="143" height="77"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCa-fn-Aug">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DCa-fn-Aug">
                                                             <rect key="frame" x="0.0" y="18" width="143" height="40"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <viewLayoutGuide key="safeArea" id="alP-df-WUC"/>
                                                             <attributedString key="attributedText">
                                                                 <fragment content="Label">
                                                                     <attributes>
@@ -297,14 +306,15 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqb-Sx-SxG">
+                                                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gqb-Sx-SxG">
                                                     <rect key="frame" x="840" y="0.0" width="183" height="77"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQC-BI-b6g">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jQC-BI-b6g">
                                                             <rect key="frame" x="0.0" y="18" width="169" height="40"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <viewLayoutGuide key="safeArea" id="oUN-l1-nJg"/>
                                                             <attributedString key="attributedText">
                                                                 <fragment content="Label">
                                                                     <attributes>
@@ -412,9 +422,8 @@
                                     <action selector="didPressWithSegmentControl:" destination="Mxt-pi-RVt" eventType="valueChanged" id="pmU-ee-3io"/>
                                 </connections>
                             </segmentedControl>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JD1-QW-3g3">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JD1-QW-3g3">
                                 <rect key="frame" x="0.0" y="64" width="1024" height="644"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fQx-CD-rB8">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="644"/>
@@ -449,6 +458,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="fJ9-4s-TWj" firstAttribute="leading" secondItem="fQx-CD-rB8" secondAttribute="leading" constant="362" id="EqM-3i-spW"/>
+                                            <constraint firstItem="S6j-5g-RFS" firstAttribute="top" secondItem="fJ9-4s-TWj" secondAttribute="bottom" constant="8" id="bem-KB-hSs"/>
                                             <constraint firstItem="fJ9-4s-TWj" firstAttribute="top" secondItem="fQx-CD-rB8" secondAttribute="top" constant="20" id="jJp-Ys-DXU"/>
                                             <constraint firstAttribute="trailing" secondItem="fJ9-4s-TWj" secondAttribute="trailing" constant="362" id="jWP-z3-uRV"/>
                                             <constraint firstItem="S6j-5g-RFS" firstAttribute="top" secondItem="fJ9-4s-TWj" secondAttribute="bottom" constant="8" id="kCr-sJ-Jwh"/>
@@ -456,6 +466,12 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fQx-CD-rB8" secondAttribute="trailing" id="6nQ-GF-ayk"/>
+                                    <constraint firstAttribute="bottom" secondItem="fQx-CD-rB8" secondAttribute="bottom" id="UAz-1V-4aG"/>
+                                    <constraint firstItem="fQx-CD-rB8" firstAttribute="leading" secondItem="JD1-QW-3g3" secondAttribute="leading" id="VVj-M1-Qcm"/>
+                                    <constraint firstItem="fQx-CD-rB8" firstAttribute="top" secondItem="JD1-QW-3g3" secondAttribute="top" id="jgF-UJ-0bE"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
