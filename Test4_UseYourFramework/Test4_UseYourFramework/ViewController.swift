@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SimpleSwiftFramework
+//import SimpleSwiftFramework
 
 class ViewController: UIViewController {
     
@@ -23,8 +23,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func didPressAction(button: UIButton) {
-        CallingFrameworkFunction.alert(message: messageTextfield.text)
+  @IBAction func didPressAction(button: UIButton) {
+       showAlertMessage()
+    }
+    
+    func showAlertMessage(){
+        
+        
+        //create the alert controller
+        let alert = UIAlertController(title: "Alert Message from framework",
+                                      message: "Your Message is \(messageTextfield.text ?? "")",
+                                      preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "OK", style:.default, handler: { (_: UIAlertAction!) in
+            
+        }))
+        // present the alert
+        self.present(alert, animated: true, completion: nil)
+        
     }
 }
 
